@@ -66,6 +66,7 @@ const dataDetailData = () => {
     { title: "Provinsi", dataIndex: "PROVINSI", key: "PROVINSI" },
     { title: "Kota", dataIndex: "KOTA", key: "KOTA" },
     { title: "Kecamatan", dataIndex: "KECAMATAN", key: "KECAMATAN" },
+    { title: "Kelurahan", dataIndex: "KELURAHAN", key: "KELURAHAN" },
     { title: "RT/RW", dataIndex: "RT_RW", key: "RT_RW" },
     { title: "Warna Rambut", dataIndex: "WARNA_RAMBUT", key: "WARNA_RAMBUT" },
     { title: "Warna Mata", dataIndex: "WARNA_MATA", key: "WARNA_MATA" },

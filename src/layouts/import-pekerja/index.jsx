@@ -11,7 +11,7 @@ const ImportPekerja = () => {
 
   const columnHeaders = [
     "NAMA", "NIK", "TEMPAT_LAHIR", "TTL", "SEKOLAH", "KTP", "KK", "IJAZAH",
-    "AKTA_KELAHIRAN", "BSTFII", "ALAMAT", "PROVINSI", "KOTA", "KECAMATAN",
+    "AKTA_KELAHIRAN", "BSTFII", "ALAMAT", "PROVINSI", "KOTA", "KECAMATAN", "KELURAHAN",
     "RT_RW", "WARNA_RAMBUT", "WARNA_MATA", "WARNA_KULIT", "TINGGI_BADAN",
     "BERAT_BADAN", "GOLONGAN_DARAH", "NAMA_KAPAL", "NAMA_IBU", "AGAMA", "PENDIDIKAN_TERAKHIR"
   ];
@@ -224,6 +224,7 @@ const ImportPekerja = () => {
       "PROVINSI": "DKI Jakarta",
       "KOTA": "Jakarta Pusat",
       "KECAMATAN": "Gambir",
+      "KELURAHAN": "Kelurahan Contoh",
       "RT_RW": "001/002",
       "WARNA_RAMBUT": "Hitam",
       "WARNA_MATA": "Hitam",

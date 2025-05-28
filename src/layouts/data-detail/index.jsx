@@ -60,6 +60,7 @@ const DataDetail = () => {
     { key: "PROVINSI", label: "Provinsi" },
     { key: "KOTA", label: "Kota" },
     { key: "KECAMATAN", label: "Kecamatan" },
+    { key: "KELURAHAN", label: "Kelurahan" },
     { key: "RT_RW", label: "RT/RW" },
     { key: "WARNA_RAMBUT", label: "Warna Rambut" },
     { key: "WARNA_MATA", label: "Warna Mata" },
@@ -299,6 +300,7 @@ const DataDetail = () => {
       item.PROVINSI || '',
       item.KOTA || '',
       item.KECAMATAN || '',
+      item.KELURAHAN || '',
       item.RT_RW || '',
       item.WARNA_RAMBUT || '',
       item.WARNA_MATA || '',
@@ -312,7 +314,7 @@ const DataDetail = () => {
     autoTable(doc, {
       head: [[
         "Nama", "NIK", "Tempat Lahir", "TTL", "Agama", "Nama Ibu", "Pendidikan Terakhir", "Sekolah", "KTP", "KK", "Ijazah",
-        "Akta Lahir", "BSTF II", "Alamat", "Provinsi", "Kota", "Kecamatan", "RT/RW", "Warna Rambut", "Warna Mata",
+        "Akta Lahir", "BSTF II", "Alamat", "Provinsi", "Kota", "Kecamatan", "KELURAHAN", "RT/RW", "Warna Rambut", "Warna Mata",
         "Warna Kulit", "Tinggi Badan", "Berat Badan", "Golongan Darah", "Nama Kapal"
       ]],
       body: tableData,
@@ -345,13 +347,14 @@ const DataDetail = () => {
         14: { cellWidth: 15 }, // PROVINSI
         15: { cellWidth: 15 }, // KOTA
         16: { cellWidth: 15 }, // KECAMATAN
-        17: { cellWidth: 12 }, // RT_RW
-        18: { cellWidth: 12 }, // WARNA_RAMBUT
-        19: { cellWidth: 12 }, // WARNA_MATA
-        20: { cellWidth: 12 }, // WARNA_KULIT
-        21: { cellWidth: 12 }, // TINGGI_BADAN
-        22: { cellWidth: 12 }, // BERAT_BADAN
-        23: { cellWidth: 10 }, // GOLONGAN_DARAH
+        17: { cellWidth: 12 }, // KELURAHAN
+        18: { cellWidth: 12 }, // RT_RW
+        19: { cellWidth: 12 }, // WARNA_RAMBUT
+        20: { cellWidth: 12 }, // WARNA_MATA
+        21: { cellWidth: 12 }, // WARNA_KULIT
+        22: { cellWidth: 12 }, // TINGGI_BADAN
+        23: { cellWidth: 10 }, // BERAT
+        24: { cellWidth: 15 }, // GOLONGAN_DARAH
         24: { cellWidth: 15 }, // NAMA_KAPAL
       },
     });
@@ -523,6 +526,7 @@ const DataDetail = () => {
               { name: "PROVINSI", label: "Provinsi", span: 8 },
               { name: "KOTA", label: "Kota", span: 8 },
               { name: "KECAMATAN", label: "Kecamatan", span: 8 },
+              { name: "KELURAHAN", label: "Kelurahan", span: 8 },
               { name: "RT_RW", label: "RT/RW", span: 8 },
               { name: "WARNA_RAMBUT", label: "Warna Rambut", span: 8 },
               { name: "WARNA_MATA", label: "Warna Mata", span: 8 },
